@@ -18,7 +18,6 @@ if __name__ == '__main__':
             m.resize(1200, 100)
             input('Start')
             benchmark.single(m)
-            print(benchmark.count)
         elif hw_choice == 2:
             m.resize(1900, 190)
             input('Start')
